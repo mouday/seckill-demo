@@ -54,4 +54,10 @@
         <property name="basePackage" value="org.seckill.dao"/>
     </bean>
 
+    <!--Redis-->
+    <bean id="redisDao" class="org.seckill.dao.cache.RedisDao">
+        <constructor-arg name="host" value="localhost"/>
+        <constructor-arg name="port" value="6379"/>
+    </bean>
+
 </beans>

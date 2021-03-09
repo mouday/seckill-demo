@@ -182,6 +182,28 @@
             <scope>provided</scope>
         </dependency>
 
+        <!--redis客户端-->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+
+        <!--对象序列化依赖-->
+        <!-- https://mvnrepository.com/artifact/com.dyuproject.protostuff/protostuff-core -->
+        <dependency>
+            <groupId>com.dyuproject.protostuff</groupId>
+            <artifactId>protostuff-core</artifactId>
+            <version>1.1.6</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.dyuproject.protostuff/protostuff-runtime -->
+        <dependency>
+            <groupId>com.dyuproject.protostuff</groupId>
+            <artifactId>protostuff-runtime</artifactId>
+            <version>1.1.6</version>
+        </dependency>
+
     </dependencies>
 
     <build>
